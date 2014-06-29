@@ -27,7 +27,6 @@ $app = new Illuminate\Foundation\Application;
 $env = $app->detectEnvironment(array(
 
 	'local' => array('localhost'),
-	'xserver' => array('http://www.acaperound.com'),
 
 ));
 
